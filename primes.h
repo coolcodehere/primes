@@ -30007,7 +30007,7 @@ int primeSize = sizeof(primes)/sizeof(primes[0]);
 int findNextPrime(int num) {
     int i = 0;
 
-    while (i < num) {
+    while (primes[i] < num) {
         i++;
     }
 
