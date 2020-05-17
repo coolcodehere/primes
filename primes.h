@@ -30011,7 +30011,7 @@ int findNextPrime(int num) {
         i++;
     }
 
-    return primes[i];
+    return primes[i + 1];
 }
 
 #endif
